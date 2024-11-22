@@ -125,9 +125,22 @@
     color: var(--secondary)!important;
 }
 
+.bg-primary-color {
+    background-color: var(--primary)!important;
+    border-color: var(--primary)!important;
+}
+
+.border-primary-color {
+    border-color: var(--primary)!important;
+}
+
 .bg-secondary-color {
     background: var(--secondary)!important;
     border-color: var(--secondary)!important;
+}
+
+a:hover{
+    color: var(--secondary);
 }
 
 .back-to-top {
