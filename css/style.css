@@ -423,6 +423,18 @@ a:hover{
     color: var(--primary) !important;
 }
 
+.btn-outline-primary.active, .btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary{
+    border-color: var(--primary);
+}
+
+.product-item small a {
+    background-color: white;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
